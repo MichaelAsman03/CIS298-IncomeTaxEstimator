@@ -32,7 +32,7 @@ print("Welcome to the Income Tax Estimator!")
 # Get income from the user
 gross_income = 0
 while True:
-    income = input("Enter an income amount (done or stop): ")
+    income = input("Enter an income amount (choose one: done or stop): ")
     if income.lower() == 'done':
         break
     gross_income += float(income)
@@ -40,7 +40,7 @@ while True:
 # Get deductions from the user
 total_deductions = 0
 while True:
-    deduction = input("Enter a deduction amount (done or stop): ")
+    deduction = input("Enter a deduction amount (choose one: done or stop): ")
     if deduction.lower() == 'done':
         break
     total_deductions += float(deduction)
